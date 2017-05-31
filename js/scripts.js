@@ -1,7 +1,4 @@
 // scripts.js
-var a = prompt ("Enter  triangle's side length: ");
-var h = prompt ("Enter  triangle's height length: ");
-
 
 function getTriangleArea(a, h) {
 	if 
@@ -12,9 +9,7 @@ function getTriangleArea(a, h) {
 	{return "Triangle field where base a is equal: " + a + " and height h is equal: " + h + " is equal: " + a*h/2;}
 }
     
-	var functionValue = getTriangleArea(a, h);
-	console.log(functionValue);
-
+	
 	var function1Value = getTriangleArea(8, 9);
 	console.log(function1Value);
 
