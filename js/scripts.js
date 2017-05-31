@@ -5,7 +5,7 @@ function getTriangleArea(a, h) {
 		return "Triangle field where base a is equal: " + a + " and height h is equal: " + h + " is equal: " + a*h/2;
     } 
     else if (a <= 0 || h <= 0) {
-    	return "Data is incorrect";
+        return "Data is incorrect";
     }
 }
     
