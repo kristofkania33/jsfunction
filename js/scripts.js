@@ -6,7 +6,7 @@ function getTriangleArea(a, h) {
     } 
     else if (a <= 0 || h <= 0) {
     	return "Data is incorrect";
-	}
+    }
 }
     
 	
