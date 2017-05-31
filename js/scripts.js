@@ -1,21 +1,21 @@
 // scripts.js
 
 function getTriangleArea(a, h) {
-	if 
-		(a < 0 || a == 0 || h < 0 || h == 0)
-	{return "Data is incorrect!!!";}
-	else if
-		(a > 0 && h > 0)
-	{return "Triangle field where base a is equal: " + a + " and height h is equal: " + h + " is equal: " + a*h/2;}
+	if(a > 0 && h > 0) {
+		return "Triangle field where base a is equal: " + a + " and height h is equal: " + h + " is equal: " + a*h/2;
+    } 
+	else if (a <= 0 || h <= 0) {
+    	return "Data is incorrect";
+	}
 }
     
 	
-	var function1Value = getTriangleArea(8, 9);
-	console.log(function1Value);
+	var TriangleArea1 = getTriangleArea(8, 9);
+	console.log(TriangleArea1);
 
-	var function2Value = getTriangleArea(3, 4);
-	console.log(function2Value);
+	var TriangleArea2 = getTriangleArea(3, 4);
+	console.log(TriangleArea2);
 
-	var function3Value = getTriangleArea(12, 4);
-	console.log(function3Value);
+	var TriangleArea3 = getTriangleArea(12, 4);
+	console.log(TriangleArea3);
 
